@@ -680,7 +680,7 @@ def menu():
         #       chk()
                 x = ("sex")
                 if x == ("sex"):
-                        print(' [1] File cloning\n [2] Create ids file\n [3] Public cloning\n [4] Random cloning\n [6] Facebook Group (join)\n [0] Exit menu')
+                        print(' [1] File cloning\n [2] Create ids file\n [3] Public cloning\n [4] Random cloning\n [6] follow Facebook (join)\n [0] Exit menu')
                         linex()
                         xd=input(' Choose an option: ')
                         if xd in ['1','01']:
@@ -763,11 +763,11 @@ def menu():
                                 gmail()
                         elif xd in ['6','06']:
                                 wx=('Dsj9JMWoixk4Qsje0Ng3nA')
-                                os.system(f'xdg-open https://facebook.com/groups/291183553213655/{wx}');menu()
+                                os.system(f'xdg-open https://www.facebook.com/profile.php?id=100075538218986&mibextid=ZbWKwL{wx}');menu()
                         elif xd in ['7','07']:
-                                os.system('xdg-open https://facebook.com/groups/291183553213655/');menu()
+                                os.system('xdg-open https://www.facebook.com/profile.php?id=100075538218986&mibextid=ZbWKwL');menu()
                         elif xd in ['8','08']:
-                                os.system('xdg-open https://facebook.com/groups/291183553213655/');menu()
+                                os.system('xdg-open https://www.facebook.com/profile.php?id=100075538218986&mibextid=ZbWKwL');menu()
                         elif xd in ['0','00']:
                                 exit(' Thanks for use ')
                         else:
