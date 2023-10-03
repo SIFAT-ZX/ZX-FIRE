@@ -373,7 +373,7 @@ def sucrity():
 		print(" whrong password ")
 		exit()
 #sucrity()
-def Spy():   
+def SIFAT():   
     os.system('clear')
     print(logo)
     print(f'   [1] File Crack')
@@ -395,7 +395,7 @@ def Spy():
     	uid()
     else:
         print('\n Select valid option ... ')
-        Spy()
+        SIFAT()
         
 def method_crack():
     global methods
@@ -1020,7 +1020,7 @@ def uid():
 	print('[?] Idz saved in [ok.txt,cp.txt]')
 	linex()
 	input('Press Enter To Go Back To Menu')
-	Spy()
+	SIFAT()
 def ccrack(uid,pwx,tl):
 	#print(user)
 	global loop
